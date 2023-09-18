@@ -56,8 +56,8 @@ public:
             }
         }
         
+          // No palindrome found, return an empty string
         if (fs == -1 || fe == -1) {
-            // No palindrome found, return an empty string
             return "";
         }
         
